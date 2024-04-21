@@ -24,7 +24,7 @@ The News Web App allows users to find news articles based on various search crit
 
 To run the News Web App, you'll need VSCode with the LiveServer extension installed. Follow these steps to set up and run the app:
 
-1. Clone the repository to your local machine.
+- Clone the repository to your local machine.
    ```bash
    git clone https://github.com/etsivazjy/news-project.git
 Open the project folder in VSCode.
