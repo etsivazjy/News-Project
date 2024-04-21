@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newswebt</title>
+
+    <!--font awesome-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" 
+        rel="stylesheet"
+    />
+
+    <!--css style-->
+    <link rel = "stylesheet" href = "./style.css"/>
+</head>
+<body>
+    <header>
+        <img src = "./logo.svg" width="38px"/>
+        <div class = "inputSearch desktop">
+           <form id="searchForm">
+            <input type = "text" placeholder = "Type to search..." id="searchInput"/>
+            <span><i class="fa-brands fa-searchengin"></i></span>
+           </form>
+        </div>
+        <nav class = "desktop">
+            <ul>
+                <li onclick = "Search('tech')">Tech</li>
+                <li onclick = "Search('science')">Science</li>
+                <li onclick = "Search('math')">Math</li>
+                <li onclick = "Search('movies')">Movies</li>
+                <li onclick = "Search('finland')">Finland</li>
+            </ul>
+        </nav> 
+
+        <div class = "menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!------>
+        <div class = "mobile hidden">
+            <nav>
+                <ul>
+                    <li>Tech</li>
+                    <li>Science</li>
+                    <li>Math</li>
+                    <li>Movies</li>
+                    <li>Finland</li>
+                </ul>
+            </nav>
+            <div class = "inputSearch">
+                <form id="searchFormMobile">
+                <input type = "text" placeholder = "Type to search..." id="searchInputMobile"/>
+                <span><i class="fa-brands fa-searchengin"></i></span>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+    <!-- main-->
+
+    <main>
+        
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
