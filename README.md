@@ -34,6 +34,7 @@ Open the browser to the provided LiveServer URL to view the app.
 ## Usage
 After starting the app with LiveServer, you can:
 
--Search for News: Use the search bar to enter keywords and find relevant news articles.
--Select Categories: Click on the category names in the navigation bar to view articles in specific categories.
--Toggle Mobile Menu: Use the menu button to show or hide the mobile menu.
+- Search for News: Use the search bar to enter keywords and find relevant news articles.
+- Select Categories: Click on the category names in the navigation bar to view articles in specific categories.
+- Toggle Mobile Menu: Use the menu button to show or hide the mobile menu.
+
