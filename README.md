@@ -13,7 +13,8 @@ A simple news web application that allows users to search for news articles by k
 The News Web App allows users to find news articles based on various search criteria. It supports both desktop and mobile views, with different layouts and functionality for each. The app uses the NewsAPI to fetch articles based on user input and displays them in a card format.
 
 ## Features
-![Project Screenshot](https://github.com/etsivazjy/news-project/raw/main/example.png)
+<!-- Display the image with a width of 300 pixels -->
+<img src="https://github.com/etsivazjy/news-project/raw/main/example.png" alt="Project Screenshot" width="300">
 - Search for news articles by keyword.
 - Select news articles by pre-defined categories.
 - Responsive design supporting both desktop and mobile modes.
