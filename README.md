@@ -15,6 +15,7 @@ The News Web App allows users to find news articles based on various search crit
 ## Features
 <!-- Display the image with a width of 300 pixels -->
 <img src="https://github.com/etsivazjy/news-project/raw/main/example.png" alt="Project Screenshot" width="300">
+
 - Search for news articles by keyword.
 - Select news articles by pre-defined categories.
 - Responsive design supporting both desktop and mobile modes.
